@@ -1,1 +1,3 @@
 # KingGenius5.github.io
+
+## Just wondering...
