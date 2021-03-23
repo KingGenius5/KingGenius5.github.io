@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Muhammad",
   middleName: "",
   lastName: "Tifak",
-  message: " The number one hyper-active knuckle-head ninja! ",
+  message: "The No. 1 Hyperactive, Knucklehead Ninja!",
   icons: [
     {
       image: "fa-github",
@@ -37,7 +37,7 @@ const about = {
   imageLink: require("../editable-stuff/prof.jpeg"),
   imageSize: 405,
   message:
-    "The name's Tifak, Muhammad Tifak. I'm a senior at Make School studying Applied Computer Science with a (insert buzzword) PASSION for blockchain technologies, back-end development, anime, giving back to the community, as well as a host of solution oriented things.",
+    "The name's Tifak, Muhammad Tifak. I'm a senior at Make School studying Applied Computer Science with a (insert buzzword) PASSION for blockchain technologies, back-end development, anime, giving back to the community, as well as a host of solution-oriented things.",
 };
 
 // PROJECTS Section

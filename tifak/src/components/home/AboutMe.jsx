@@ -36,7 +36,7 @@ const AboutMe = ({ heading, message, link, imgSize }) => {
           <div className="col-5 d-none d-lg-block align-self-center">
             {showPic && (
               <img
-                className="border border-secondary rounded-circle"
+                className="border border-light rounded"
                 src={profilePicUrl}
                 alt="profilepicture"
                 width={imgSize}

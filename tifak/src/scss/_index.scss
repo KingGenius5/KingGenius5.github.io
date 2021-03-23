@@ -44,6 +44,42 @@ code {
   background: linear-gradient(rgba(245, 245, 245, 1), rgba(245, 245, 245, 0));
 }
 
+.nav-link {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #031d44;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+  transition: color, 0.2s;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 85%;
+}
+
 .navbar-transparent {
   background-color: rgba(255, 255, 255, 0);
   transition: background-color 0.2s;
@@ -55,9 +91,7 @@ code {
 .brand {
   color: #363636 !important;
 }
-.nav-link {
-  transition: color, 0.2s;
-}
+
 .toggler {
   border: none;
   padding: 4px;
@@ -103,8 +137,10 @@ code {
 
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
   &:hover {
-    box-shadow: 0 2rem 3rem rgba($black, 0.175) !important;
+    box-shadow: 0 2rem 3rem rgba($black, 0.2) !important;
     transform: translateY(-2px);
     transition: transform 0.3s, box-shadow 0.3s;
   }
@@ -123,6 +159,12 @@ code {
     transform: scaleX(0);
   }
 }
+
+.progress-bar {
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+}
+
 .progress-bar-animation {
   @extend .progress;
   & > * {
