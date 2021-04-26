@@ -2,4 +2,4 @@
 
 ### Personal portfolio website.
 
-## [My Webpage](https://kinggenius5.github.io/)
+## [Home](https://kinggenius5.github.io/)
