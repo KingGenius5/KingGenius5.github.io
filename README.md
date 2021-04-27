@@ -2,4 +2,4 @@
 
 ### Personal portfolio website.
 
-## [Home](https://kinggenius5.github.io/)
+## [Tifak's Homepage](https://kinggenius5.github.io/)
